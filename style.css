@@ -30,11 +30,17 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+a,
+.secondary-text,
+.hero-img {
   color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header {
-  width: 1080px;
+  width: 960px;
 }
 
 .nav {
@@ -48,4 +54,42 @@ a {
   font-size: 24px;
   font-weight: 700;
   color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  gap: 48px;
+  margin: 100px 0;
+}
+
+.left {
+  width: 450px;
+}
+
+.primary-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  margin-bottom: 12px;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  flex: 1;
 }
